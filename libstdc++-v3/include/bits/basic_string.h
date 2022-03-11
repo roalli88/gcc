@@ -3912,7 +3912,7 @@ _GLIBCXX_END_NAMESPACE_CXX11
    *  @param __str  Buffer to store into.
    *  @return  Reference to the input stream.
    *
-   *  Stores characters from is into @a __str until &apos;\n&apos; is
+   *  Stores characters from __is into @a __str until &apos;\n&apos; is
    *  found, the end of the stream is encountered, or str.max_size()
    *  is reached.  Any previous contents of @a __str are erased.  If
    *  end of line is encountered, it is extracted but not stored into
